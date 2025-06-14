@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+.search-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-form input[type="text"],
+.search-form select {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 8px;
+  width: 200px;
+}
+
+.search-form button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #0b7dda;
+}
+
+.add-link {
+  display: block;
+  text-align: center;
+  margin: 20px 0;
+  text-decoration: none;
+  font-size: 18px;
+  color: #4CAF50;
+}
+
+.add-link:hover {
+  text-decoration: underline;
+}
+
+.movie-list {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.movie-item {
+  background-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.movie-item img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.details {
+  flex: 1;
+}
+
+.details strong {
+  font-size: 20px;
+  color: #333;
+}
+
+.genre-status {
+  margin-top: 4px;
+  font-size: 14px;
+  color: #777;
+}
+
+.rating {
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.actions a {
+  margin-right: 10px;
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.actions a:hover {
+  text-decoration: underline;
+}
